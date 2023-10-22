@@ -5,6 +5,7 @@ btn.addEventListener('click',function(){
 	let p = document.getElementById('status');
 	if(p){
 		let h = document.createElement('h1');
+		h.setAttribute('id','status');
 		h.textContent = p.textContent;
 		p.parentNode.replaceChild(h,p);
 	}
