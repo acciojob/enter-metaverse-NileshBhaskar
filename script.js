@@ -6,7 +6,7 @@ btn.addEventListener('click',function(){
 	if(p){
 		let h = document.createElement('h1');
 		h.setAttribute('id','status');
-		h.textContent = p.textContent;
+		h.textContent = "Entered Metaverse";
 		p.parentNode.replaceChild(h,p);
 	}
 })
